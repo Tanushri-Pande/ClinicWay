@@ -2,7 +2,7 @@
 
 ClinicWay is a full-stack web application for seamless online doctor appointment booking. It supports **patient registration**, **doctor management**, **admin dashboard**, **appointment scheduling**, and **online payments via Razorpay**.
 
-> 🌐 Live Demo (if deployed):  
+> 🌐 Live Demo :  
 > - Admin Panel: https://admin-clinicway.onrender.com  
 > - Client Frontend: https://clinicway-client.onrender.com  
 > - Backend API: https://clinicway-backend.onrender.com/api
