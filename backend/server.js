@@ -15,7 +15,17 @@ connectCloudinary();
 
 // middlewares
 app.use(express.json());
-app.use(cors());
+const allowedOrigins = [
+  "http://localhost:5173",
+  "http://localhost:5174",
+  "https://clinicway-client.onrender.com",
+  "https://clinicway-admin.onrender.com",
+];
+
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true,
+}));
 
 // api endpoints
 app.use("/api/admin", adminRouter);
